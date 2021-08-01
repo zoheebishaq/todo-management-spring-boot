@@ -10,7 +10,7 @@ import javax.persistence.Table;
 import javax.validation.constraints.Size;
 
 @Entity
-@Table(name = "todos")
+@Table
 public class Todo {
 
 	@Id
@@ -19,7 +19,7 @@ public class Todo {
 
 	private String userName;
 
-	@Size(min = 10, message = "Enter at least 10 Characters...")
+	@Size(min = 10, message = "Entrez au moins 10 caractères...")
 	private String description;
 
 	private Date targetDate;

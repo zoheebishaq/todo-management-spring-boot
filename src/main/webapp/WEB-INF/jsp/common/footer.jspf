@@ -9,11 +9,10 @@
 </script>
 
 
-<div class="footer">
-	Fixed Footer
+<div class="bg-danger footer">
+
 	<h1>
-		<a href="http://www.javaguides.net/p/spring-boot-tutorial.html">
-			Spring Boot Tutorial</a>
+			Todo-list
 	</h1>
 </div>
 </body>

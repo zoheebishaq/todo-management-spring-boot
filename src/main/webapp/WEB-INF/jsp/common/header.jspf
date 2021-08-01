@@ -16,7 +16,7 @@
 	bottom: 0;
 	width: 100%;
 	background-color: black;
-	color: white;
+	color: #ffffff;
 	height: 100px;
 	text-align: center;
 }
