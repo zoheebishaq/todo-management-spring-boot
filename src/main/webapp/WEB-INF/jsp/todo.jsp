@@ -17,7 +17,7 @@
 
 						<fieldset class="form-group">
 							<form:label path="targetDate">Date limite - jj/mm/aaa</form:label>
-							<form:input path="targetDate" type="date" class="form-control"
+							<form:input path="targetDate" type="text" class="form-control"
 								required="required" />
 							<form:errors path="targetDate" cssClass="text-warning" />
 						</fieldset>
