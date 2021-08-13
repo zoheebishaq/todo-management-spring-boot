@@ -8,7 +8,7 @@
 	<br>
 	<div class="panel panel-primary">
 		<div class="panel-heading">
-			<h3>List de TODO's</h3>
+			<h3>Liste de TODO's</h3>
 		</div>
 		<div class="panel-body">
 			<table class="table table-striped">
@@ -16,7 +16,7 @@
 					<tr>
 						<th width="40%">Description</th>
 						<th width="40%">Date limite</th>
-						<th width="20%"></th>
+						<th width="20%">Actions</th>
 					</tr>
 				</thead>
 				<tbody>

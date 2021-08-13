@@ -17,12 +17,12 @@
 
 						<fieldset class="form-group">
 							<form:label path="targetDate">Date limite - jj/mm/aaa</form:label>
-							<form:input path="targetDate" type="text" class="form-control"
+							<form:input path="targetDate" type="date" class="form-control"
 								required="required" />
 							<form:errors path="targetDate" cssClass="text-warning" />
 						</fieldset>
 
-						<button type="submit" class="btn btn-success">Enregister</button>
+						<button type="submit" class="btn btn-success">Ajouter</button>
 					</form:form>
 				</div>
 			</div>
