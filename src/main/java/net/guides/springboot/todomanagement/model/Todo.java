@@ -23,7 +23,7 @@ public class Todo {
 
 	@Size(min = 10, message = "Entrez au moins 10 caractères...")
 	private String description;
-	@DateTimeFormat(pattern = "yyyy-MM-dd")
+	@DateTimeFormat(pattern = "dd-MM-yyyy")
 	private Date targetDate;
 	
 	public Todo() {
