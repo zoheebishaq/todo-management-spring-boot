@@ -1,5 +1,7 @@
 package net.guides.springboot.todomanagement.model;
 
+import org.springframework.format.annotation.DateTimeFormat;
+
 import java.util.Date;
 
 import javax.persistence.Entity;
@@ -21,7 +23,7 @@ public class Todo {
 
 	@Size(min = 10, message = "Entrez au moins 10 caractères...")
 	private String description;
-
+	@DateTimeFormat(pattern = "yyyy-MM-dd")
 	private Date targetDate;
 	
 	public Todo() {
